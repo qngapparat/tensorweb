@@ -1,0 +1,22 @@
+{
+  "name": "tensorweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^1.0.1",
+    "@tensorflow/tfjs": "^1.1.2",
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "@tensorflow/tfjs-vis": "^1.1.0",
+    "webpack": "^4.32.2",
+    "webpack-dev": "^1.1.1",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
